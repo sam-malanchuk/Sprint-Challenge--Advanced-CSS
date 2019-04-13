@@ -1,9 +1,9 @@
 // Mixins Here
-.flex-box(@justifyContent, @flexFlow: row) {
+.flex-box(@justifyContent, @flexFlow: row, @alignItems: center) {
     display: flex;
     justify-content: @justifyContent;
     flex-flow: @flexFlow;
-    align-items: center;
+    align-items: @alignItems;
 }
 
 .btn-start(@height: 35px, @width: 100px, @fontSize: 1.9em, @backgroundColor: #22283a, @color: #fff, @borderRadius: 5px) {

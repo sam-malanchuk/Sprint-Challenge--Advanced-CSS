@@ -198,6 +198,9 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro img {
+  border-radius: 5px;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -224,6 +227,8 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  flex-flow: row;
+  align-items: flex-top;
 }
 .home .walk .walk-text {
   width: 50%;
