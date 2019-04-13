@@ -180,6 +180,18 @@ footer {
   font-size: 4em;
   padding: 13px 0;
 }
+.top nav {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  align-items: center;
+  font-size: 1.7em;
+  padding: 6px 0 10px;
+}
+.top nav a {
+  text-decoration: none;
+}
 .home .intro h2 {
   padding: 15px;
 }
